@@ -5,8 +5,8 @@ def main():
 
         return[char for char in given_string if given_string.count(char) > 1][0]
 
-    output = first_recurring("DBCABA")
-    print(output)
+    print(first_recurring("DBCABA"))
+
 
 if __name__ == "__main__":
     main()
